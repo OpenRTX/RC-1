@@ -1,0 +1,5 @@
+(sym_lib_table
+  (lib (name adf7021)(type Legacy)(uri ${KIPRJMOD}/libraries/adf7021.lib)(options "")(descr ""))
+  (lib (name PCIe_M.2)(type Legacy)(uri ${KIPRJMOD}/libraries/PCIe_M.2.lib)(options "")(descr ""))
+  (lib (name tcxo)(type Legacy)(uri ${KIPRJMOD}/libraries/tcxo.lib)(options "")(descr ""))
+)
