@@ -4,6 +4,13 @@
 
   (paper "A4")
 
+  (title_block
+    (title "Radio Card RC-1")
+    (date "2021-12-29")
+    (rev "d4f4755")
+    (company "OpenRTX + M17")
+  )
+
   (lib_symbols
     (symbol "Connector:Conn_Coaxial" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
       (property "Reference" "J" (id 0) (at 0.254 3.048 0)
