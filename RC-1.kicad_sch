@@ -179,8 +179,14 @@
     (path "/d054b6a0-3a84-4aaa-901c-78f33fd51c3e/c9740699-1be1-4b57-95c8-012d06e0384e"
       (reference "#PWR?") (unit 1) (value "+3V3") (footprint "")
     )
+    (path "/d054b6a0-3a84-4aaa-901c-78f33fd51c3e/cc4eee78-d613-4f84-b7c9-98792e135bc0"
+      (reference "#PWR?") (unit 1) (value "+3V3") (footprint "")
+    )
     (path "/d054b6a0-3a84-4aaa-901c-78f33fd51c3e/cf9db419-52de-49fd-b62d-57cee9f4e49a"
       (reference "#PWR?") (unit 1) (value "+3V3") (footprint "")
+    )
+    (path "/d054b6a0-3a84-4aaa-901c-78f33fd51c3e/d8415da7-949b-463f-944b-f60c21219035"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
     (path "/e9b5eb9e-a5da-44ea-89cf-1dbc5f8707b1/dca867f7-b940-4417-9264-b658b709203e"
       (reference "#PWR?") (unit 1) (value "GND") (footprint "")
@@ -295,6 +301,9 @@
     )
     (path "/37f64190-0af6-4571-a391-bfca4fb830ce/ffc30bd3-1ba3-4fe3-b3b1-c64a43fdf200"
       (reference "C?") (unit 1) (value "10u") (footprint "Capacitor_SMD:C_0402_1005Metric")
+    )
+    (path "/d054b6a0-3a84-4aaa-901c-78f33fd51c3e/649e27c1-a08d-4446-a16b-cdabdc592f17"
+      (reference "J?") (unit 1) (value "SOICbite_SWD_UART") (footprint "SOICbite:SOIC_clipProgSmall")
     )
     (path "/e9b5eb9e-a5da-44ea-89cf-1dbc5f8707b1/dd3d9bf8-7d8c-440a-8176-2e5d424a99c8"
       (reference "J?") (unit 1) (value "U.FL") (footprint "Connector_Coaxial:U.FL_Hirose_U.FL-R-SMT-1_Vertical")
