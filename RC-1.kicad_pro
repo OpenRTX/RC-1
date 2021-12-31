@@ -415,6 +415,18 @@
     [
       "63ff1c93-3f96-4c33-b498-5dd8c33bccc0",
       ""
+    ],
+    [
+      "d054b6a0-3a84-4aaa-901c-78f33fd51c3e",
+      "Connectors"
+    ],
+    [
+      "37f64190-0af6-4571-a391-bfca4fb830ce",
+      "MCU"
+    ],
+    [
+      "e9b5eb9e-a5da-44ea-89cf-1dbc5f8707b1",
+      "Radio"
     ]
   ],
   "text_variables": {}
