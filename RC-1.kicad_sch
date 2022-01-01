@@ -113,6 +113,9 @@
     (path "/e9b5eb9e-a5da-44ea-89cf-1dbc5f8707b1/4e8aac28-7ceb-4e7e-95b2-49b1fb010db7"
       (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
+    (path "/d054b6a0-3a84-4aaa-901c-78f33fd51c3e/51151b4b-bc5e-4a2b-9224-5349bc879f5b"
+      (reference "#PWR?") (unit 1) (value "+BATT") (footprint "")
+    )
     (path "/e9b5eb9e-a5da-44ea-89cf-1dbc5f8707b1/53c78fc1-c1f9-4952-9ef1-0c8a03ea203f"
       (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
@@ -124,6 +127,9 @@
     )
     (path "/e9b5eb9e-a5da-44ea-89cf-1dbc5f8707b1/857e3f02-6033-4b41-84a2-b44b517994ba"
       (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/37f64190-0af6-4571-a391-bfca4fb830ce/8d494855-57b7-434c-8517-acbac9e7f593"
+      (reference "#PWR?") (unit 1) (value "+BATT") (footprint "")
     )
     (path "/e9b5eb9e-a5da-44ea-89cf-1dbc5f8707b1/8f694aa7-c1e9-4fae-a79a-68a78bf029a1"
       (reference "#PWR?") (unit 1) (value "GND") (footprint "")
@@ -145,9 +151,6 @@
     )
     (path "/e9b5eb9e-a5da-44ea-89cf-1dbc5f8707b1/9d6c6e8c-6242-4769-8be0-162cd52068ad"
       (reference "#PWR?") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/37f64190-0af6-4571-a391-bfca4fb830ce/9eca1f64-a26a-4e91-9212-0cccaa066677"
-      (reference "#PWR?") (unit 1) (value "+3V3") (footprint "")
     )
     (path "/e9b5eb9e-a5da-44ea-89cf-1dbc5f8707b1/a5fad891-f441-49f5-a022-123545f017e5"
       (reference "#PWR?") (unit 1) (value "GND") (footprint "")
@@ -209,6 +212,9 @@
     (path "/d054b6a0-3a84-4aaa-901c-78f33fd51c3e/fa9f5383-0d8a-457e-ae47-bd4149e5fcdc"
       (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
+    (path "/37f64190-0af6-4571-a391-bfca4fb830ce/018002e6-06ae-46c7-887f-c27f45825467"
+      (reference "C?") (unit 1) (value "100n") (footprint "Capacitor_SMD:C_0402_1005Metric")
+    )
     (path "/e9b5eb9e-a5da-44ea-89cf-1dbc5f8707b1/02c7f4e7-7551-498d-9164-07baed210898"
       (reference "C?") (unit 1) (value "15n") (footprint "Capacitor_SMD:C_0402_1005Metric")
     )
@@ -216,12 +222,15 @@
       (reference "C?") (unit 1) (value "100p") (footprint "Capacitor_SMD:C_0402_1005Metric")
     )
     (path "/37f64190-0af6-4571-a391-bfca4fb830ce/08c222a8-1814-48df-92ca-9605a3efc882"
-      (reference "C?") (unit 1) (value "4.7u") (footprint "Capacitor_SMD:C_0402_1005Metric")
+      (reference "C?") (unit 1) (value "4.7μ") (footprint "Capacitor_SMD:C_0402_1005Metric")
     )
     (path "/e9b5eb9e-a5da-44ea-89cf-1dbc5f8707b1/116fb92b-3a6f-4b63-a5a7-e6f80abde193"
       (reference "C?") (unit 1) (value "4p7") (footprint "Capacitor_SMD:C_0402_1005Metric")
     )
     (path "/e9b5eb9e-a5da-44ea-89cf-1dbc5f8707b1/13d06dcb-4805-4dba-aa90-8b9bf8b51aa2"
+      (reference "C?") (unit 1) (value "100n") (footprint "Capacitor_SMD:C_0402_1005Metric")
+    )
+    (path "/37f64190-0af6-4571-a391-bfca4fb830ce/18e285bd-d683-439e-9afc-fe160510cffd"
       (reference "C?") (unit 1) (value "100n") (footprint "Capacitor_SMD:C_0402_1005Metric")
     )
     (path "/e9b5eb9e-a5da-44ea-89cf-1dbc5f8707b1/1c8898ff-7943-424e-ad4a-6cbf64e09912"
@@ -249,16 +258,16 @@
       (reference "C?") (unit 1) (value "100n") (footprint "Capacitor_SMD:C_0402_1005Metric")
     )
     (path "/37f64190-0af6-4571-a391-bfca4fb830ce/4f8c1cbb-5c78-4eb2-8d78-934c408917df"
-      (reference "C?") (unit 1) (value "26p") (footprint "Capacitor_SMD:C_0402_1005Metric")
+      (reference "C?") (unit 1) (value "TBD") (footprint "Capacitor_SMD:C_0402_1005Metric")
     )
     (path "/e9b5eb9e-a5da-44ea-89cf-1dbc5f8707b1/541d79ac-e63a-46c8-bb39-05a07af01422"
       (reference "C?") (unit 1) (value "10n") (footprint "Capacitor_SMD:C_0402_1005Metric")
     )
     (path "/37f64190-0af6-4571-a391-bfca4fb830ce/55939b47-0e32-4cb2-bc83-d90001880e7d"
-      (reference "C?") (unit 1) (value "18p") (footprint "Capacitor_SMD:C_0402_1005Metric")
+      (reference "C?") (unit 1) (value "TBD") (footprint "Capacitor_SMD:C_0402_1005Metric")
     )
     (path "/37f64190-0af6-4571-a391-bfca4fb830ce/5e36a13f-d627-45bb-a059-c8fc606b57ea"
-      (reference "C?") (unit 1) (value "26p") (footprint "Capacitor_SMD:C_0402_1005Metric")
+      (reference "C?") (unit 1) (value "TBD") (footprint "Capacitor_SMD:C_0402_1005Metric")
     )
     (path "/e9b5eb9e-a5da-44ea-89cf-1dbc5f8707b1/5ff26576-26d4-4458-a15c-65e80fbe3466"
       (reference "C?") (unit 1) (value "100n") (footprint "Capacitor_SMD:C_0402_1005Metric")
@@ -291,16 +300,19 @@
       (reference "C?") (unit 1) (value "10n") (footprint "Capacitor_SMD:C_0402_1005Metric")
     )
     (path "/37f64190-0af6-4571-a391-bfca4fb830ce/dbc23c1d-f9c7-4c2e-b8da-96344fb20002"
-      (reference "C?") (unit 1) (value "18p") (footprint "Capacitor_SMD:C_0402_1005Metric")
+      (reference "C?") (unit 1) (value "TBD") (footprint "Capacitor_SMD:C_0402_1005Metric")
     )
     (path "/e9b5eb9e-a5da-44ea-89cf-1dbc5f8707b1/e1918e27-eb1f-43bf-8e22-70c865660654"
       (reference "C?") (unit 1) (value "10n") (footprint "Capacitor_SMD:C_0402_1005Metric")
     )
     (path "/37f64190-0af6-4571-a391-bfca4fb830ce/fc83bb67-4e3c-42e9-bff3-ab230d831d78"
-      (reference "C?") (unit 1) (value "10u") (footprint "Capacitor_SMD:C_0402_1005Metric")
+      (reference "C?") (unit 1) (value "10μ") (footprint "Capacitor_SMD:C_0402_1005Metric")
     )
     (path "/37f64190-0af6-4571-a391-bfca4fb830ce/ffc30bd3-1ba3-4fe3-b3b1-c64a43fdf200"
-      (reference "C?") (unit 1) (value "10u") (footprint "Capacitor_SMD:C_0402_1005Metric")
+      (reference "C?") (unit 1) (value "10μ") (footprint "Capacitor_SMD:C_0402_1005Metric")
+    )
+    (path "/37f64190-0af6-4571-a391-bfca4fb830ce/fefaf4ce-035c-4369-8d01-b988fb31214b"
+      (reference "FB?") (unit 1) (value "220Ω @ 100MHz") (footprint "")
     )
     (path "/d054b6a0-3a84-4aaa-901c-78f33fd51c3e/649e27c1-a08d-4446-a16b-cdabdc592f17"
       (reference "J?") (unit 1) (value "SOICbite_SWD_UART") (footprint "SOICbite:SOIC_clipProgSmall")
@@ -372,7 +384,7 @@
       (reference "Y?") (unit 1) (value "8MHz") (footprint "")
     )
     (path "/37f64190-0af6-4571-a391-bfca4fb830ce/75c8af41-5517-4627-9203-b6f1a55722b3"
-      (reference "Y?") (unit 1) (value "32KHz") (footprint "")
+      (reference "Y?") (unit 1) (value "32.768KHz") (footprint "")
     )
   )
 )
