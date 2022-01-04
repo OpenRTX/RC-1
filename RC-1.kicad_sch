@@ -15,6 +15,10 @@
   )
 
 
+  (wire (pts (xy 106.045 114.935) (xy 130.81 114.935))
+    (stroke (width 0) (type default) (color 0 0 0 0))
+    (uuid 1f353a38-cca8-4319-a88a-adf4bc17d733)
+  )
   (wire (pts (xy 106.045 109.855) (xy 130.81 109.855))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 28d89876-77d6-43d9-a174-7c6e16adf6bd)
@@ -83,14 +87,14 @@
     (uuid ba5df9d2-e9be-430b-9939-0b8e597d8433)
   )
 
-  (sheet (at 130.81 81.28) (size 44.45 34.29) (fields_autoplaced)
+  (sheet (at 130.81 81.28) (size 44.45 36.83) (fields_autoplaced)
     (stroke (width 0.1524) (type solid) (color 0 0 0 0))
     (fill (color 0 0 0 0.0000))
     (uuid 37f64190-0af6-4571-a391-bfca4fb830ce)
     (property "Sheet name" "MCU" (id 0) (at 130.81 80.5684 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
-    (property "Sheet file" "mcu.kicad_sch" (id 1) (at 130.81 116.1546 0)
+    (property "Sheet file" "mcu.kicad_sch" (id 1) (at 130.81 118.6946 0)
       (effects (font (size 1.27 1.27)) (justify left top))
     )
     (pin "~{RESET}" input (at 130.81 84.455 180)
@@ -133,10 +137,6 @@
       (effects (font (size 1.27 1.27)) (justify left))
       (uuid a2c48e6e-640c-41d8-a426-33aa15d2fd4c)
     )
-    (pin "PC_DET{slash}POWER_OFF" output (at 130.81 104.775 180)
-      (effects (font (size 1.27 1.27)) (justify left))
-      (uuid 780ecd06-c0b3-491e-b1c5-7cf5800009aa)
-    )
     (pin "I^{2}C" passive (at 130.81 95.885 180)
       (effects (font (size 1.27 1.27)) (justify left))
       (uuid 108f4303-a3f9-47ef-9e8d-7a73b837de56)
@@ -161,16 +161,24 @@
       (effects (font (size 1.27 1.27)) (justify left))
       (uuid 7d6b659e-f1b3-4ff5-b60e-fe28e229d196)
     )
+    (pin "PC_DETECT" output (at 130.81 104.775 180)
+      (effects (font (size 1.27 1.27)) (justify left))
+      (uuid 631167f5-11a2-46cd-80e9-ce323cd1eec7)
+    )
+    (pin "POWER_OFF" output (at 130.81 114.935 180)
+      (effects (font (size 1.27 1.27)) (justify left))
+      (uuid 862d2709-fd43-46fd-ad9e-c1425f03ecae)
+    )
   )
 
-  (sheet (at 76.2 81.28) (size 29.845 34.29) (fields_autoplaced)
+  (sheet (at 76.2 81.28) (size 29.845 36.83) (fields_autoplaced)
     (stroke (width 0.1524) (type solid) (color 0 0 0 0))
     (fill (color 0 0 0 0.0000))
     (uuid d054b6a0-3a84-4aaa-901c-78f33fd51c3e)
     (property "Sheet name" "Connectors" (id 0) (at 76.2 80.5684 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
-    (property "Sheet file" "connectors.kicad_sch" (id 1) (at 76.2 116.1546 0)
+    (property "Sheet file" "connectors.kicad_sch" (id 1) (at 76.2 118.6946 0)
       (effects (font (size 1.27 1.27)) (justify left top))
     )
     (pin "USB" passive (at 106.045 90.805 0)
@@ -209,10 +217,6 @@
       (effects (font (size 1.27 1.27)) (justify right))
       (uuid 5cb0c941-8804-4b86-b901-6a394c2f1ef8)
     )
-    (pin "PC_DET{slash}POWER_OFF" output (at 106.045 104.775 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-      (uuid f4dd1275-94ee-4047-9b46-497dfa566cf5)
-    )
     (pin "M2_LED" input (at 106.045 109.855 0)
       (effects (font (size 1.27 1.27)) (justify right))
       (uuid 5adc7cbc-413d-4bf8-841b-2a118f0225be)
@@ -220,6 +224,14 @@
     (pin "I^{2}S" passive (at 106.045 98.425 0)
       (effects (font (size 1.27 1.27)) (justify right))
       (uuid e159cf7f-f743-4507-af21-821cf3f17b12)
+    )
+    (pin "PC_DETECT" output (at 106.045 104.775 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+      (uuid dec83c16-2401-4914-a519-1eef1f44db72)
+    )
+    (pin "POWER_OFF" output (at 106.045 114.935 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+      (uuid bbe01ed5-bbdd-4183-9b86-c5809166b30e)
     )
   )
 
@@ -281,9 +293,6 @@
     (path "/e9b5eb9e-a5da-44ea-89cf-1dbc5f8707b1/1ee0b841-0376-4c42-a768-a696819cac0c"
       (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
-    (path "/d054b6a0-3a84-4aaa-901c-78f33fd51c3e/24d96d92-0033-41bb-b7f6-17c401a56838"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
-    )
     (path "/e9b5eb9e-a5da-44ea-89cf-1dbc5f8707b1/2a6a8c96-9ee1-43a6-969f-063b295c4901"
       (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
@@ -327,6 +336,9 @@
       (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
     (path "/d054b6a0-3a84-4aaa-901c-78f33fd51c3e/735a87b4-9abd-48e7-9db0-0bf63e433049"
+      (reference "#PWR?") (unit 1) (value "+3V3") (footprint "")
+    )
+    (path "/d054b6a0-3a84-4aaa-901c-78f33fd51c3e/78705ef4-849b-40e4-a931-27dc787ae8c9"
       (reference "#PWR?") (unit 1) (value "+3V3") (footprint "")
     )
     (path "/e9b5eb9e-a5da-44ea-89cf-1dbc5f8707b1/8026b4e0-e17a-4cb6-ba47-0bad44d9bba2"
@@ -572,14 +584,14 @@
     (path "/d054b6a0-3a84-4aaa-901c-78f33fd51c3e/3ef619fe-de6d-44ef-82c7-779e06ca6809"
       (reference "R?") (unit 1) (value "100k") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
+    (path "/d054b6a0-3a84-4aaa-901c-78f33fd51c3e/52101c5f-8443-4303-bf5c-ab8d0ac553b3"
+      (reference "R?") (unit 1) (value "100k") (footprint "Resistor_SMD:R_0402_1005Metric")
+    )
     (path "/37f64190-0af6-4571-a391-bfca4fb830ce/57b03ce9-6a2c-4f8c-926f-8d19ed2a8dd3"
       (reference "R?") (unit 1) (value "10k") (footprint "")
     )
     (path "/e9b5eb9e-a5da-44ea-89cf-1dbc5f8707b1/5aecf074-31b6-4396-b7ae-fa3aead9bf21"
       (reference "R?") (unit 1) (value "270") (footprint "Resistor_SMD:R_0402_1005Metric")
-    )
-    (path "/d054b6a0-3a84-4aaa-901c-78f33fd51c3e/66b6219f-e4e9-460a-9a48-80326a41b79d"
-      (reference "R?") (unit 1) (value "100k") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
     (path "/e9b5eb9e-a5da-44ea-89cf-1dbc5f8707b1/6d137e50-4f3c-48f7-b67a-04e4af16e7bc"
       (reference "R?") (unit 1) (value "560") (footprint "Resistor_SMD:R_0402_1005Metric")
