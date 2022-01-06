@@ -614,7 +614,7 @@
       (reference "J?") (unit 1) (value "SOICbite_SWD_UART") (footprint "SOICbite:SOIC_clipProgSmall")
     )
     (path "/e9b5eb9e-a5da-44ea-89cf-1dbc5f8707b1/dd3d9bf8-7d8c-440a-8176-2e5d424a99c8"
-      (reference "J?") (unit 1) (value "U.FL") (footprint "Connector_Coaxial:U.FL_Hirose_U.FL-R-SMT-1_Vertical")
+      (reference "J?") (unit 1) (value "MHF4") (footprint "dvk-mx8m-bsb:MHF4_20449-001E")
     )
     (path "/e9b5eb9e-a5da-44ea-89cf-1dbc5f8707b1/428c4882-4fa2-4105-96dc-a3e7f24d9294"
       (reference "L?") (unit 1) (value "20n") (footprint "Inductor_SMD:L_0603_1608Metric")

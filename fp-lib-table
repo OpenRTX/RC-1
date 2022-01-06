@@ -1,4 +1,5 @@
 (fp_lib_table
   (lib (name "NGFF")(type "KiCad")(uri "${KIPRJMOD}/libraries/kicad-ngff/NGFF.pretty")(options "")(descr ""))
   (lib (name "SOICbite")(type "KiCad")(uri "${KIPRJMOD}/libraries/SOICbite")(options "")(descr ""))
+  (lib (name "dvk-mx8m-bsb")(type "KiCad")(uri "${KIPRJMOD}/libraries/dvk-mx8m-bsb.pretty")(options "")(descr ""))
 )
