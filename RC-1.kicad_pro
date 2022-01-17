@@ -427,6 +427,10 @@
     [
       "e9b5eb9e-a5da-44ea-89cf-1dbc5f8707b1",
       "Radio"
+    ],
+    [
+      "68c6af70-3963-40f7-a571-68a1083177e1",
+      "DAC"
     ]
   ],
   "text_variables": {}
